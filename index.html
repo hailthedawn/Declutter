@@ -1,0 +1,32 @@
+<html>
+  <head>
+    <title>DECLUTTER</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.7/angular.min.js"></script>
+    <script src="app.js"></script>
+  </head>
+  <body ng-app="Declutter" ng-controller="MainCtrl"> 
+  <!-- this directive defines the root module and the controller of the app  -->
+  
+    <!--  <div>
+      {{test}} 
+	</div>  -->
+	
+	<!-- <div ng-repeat="post in posts" | orderBy: '-upvotes'>
+	{{post.title}} Upvotes: {{post.upvotes}}
+	</div> --> 
+	
+	<!-- <div ng-input="Enter"> here </div> -->
+	
+	<div>
+	<select  ng-model="selectedName" ng-options="x for x in names">{{name}}
+	</select> 
+
+	</div>
+
+	<div ng-repeat="x for x in names">{{x}}
+	<div ng-click="myData.doClick($event)">zzz</div>
+	
+	
+	
+  </body>
+</html>
