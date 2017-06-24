@@ -9,6 +9,13 @@ app.controller('MainCtrl', ['$scope',function($scope){
 		$scope.myData.doClick=function(event) {
 			console.log("x");
 		}
+		
+		
+	/* 	$scope.todos = [
+        { title: 'Learn Javascript', completed: true },
+		{ title: 'Learn Angular.js', completed: false },
+      
+    ]; */
 	
 	}]); 
 //the function passed is the controller func, used to augment the scope
